@@ -1,0 +1,495 @@
+/* Color Palette */
+/* #F2F2F2 */
+/* #D5966C */
+/* #151515 */
+/* #444444 */
+/* #FFFFFF */
+
+/* Text colors */
+/* #FFFFFF */
+/* #151515 */
+/* #444444 */
+
+/* Border */
+/* 1px solid rgba(68, 68, 68, 0.345518) */
+
+/* Fonts */
+
+/* Big Shoulders Display black */
+/* Outfit light */
+
+/* Font Weight */
+/* 900 */
+/* 300 */
+
+/* headings */
+/* h1, h2, h3, h4, medium, small */
+
+/* Font size */
+/* 18, 22, 36, 60, 70, 96 */
+
+/* Line Height */
+/* 28, 32, 36, 60, 70, 88 */
+
+/* Button font:
+weight: 800
+size:20px
+line height:23.94
+letter:3.64 */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Big Shoulders Display", "Outfit", sans-serif;
+  background-color: #f2f2f2;
+}
+
+.left-black {
+  width: 30%;
+  height: 83rem;
+  background-color: black;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.right-img img {
+  width: 56rem;
+  position: absolute;
+  top: 0;
+  left: 30%;
+}
+
+.heading-h1 {
+  font-family: "Big Shoulders Display", sans-serif;
+  font-size: 10rem;
+  font-weight: 900;
+  line-height: 10rem;
+  color: #ffffff;
+  position: absolute;
+  top: 19.6rem;
+  left: 16rem;
+  text-transform: uppercase;
+  mix-blend-mode: difference;
+}
+
+.text-box {
+  position: absolute;
+  top: 18.5rem;
+  right: 19rem;
+  display: flex;
+  flex-direction: column;
+  width: 39rem;
+  padding: 1.2rem;
+  row-gap: 7rem;
+}
+
+.heading-p {
+  color: black;
+  font-family: "Outfit", sans-serif;
+  font-weight: 300;
+  font-size: 2.3rem;
+  line-height: 3.3rem;
+  color: #444444;
+
+  /* margin-bottom: 3rem; */
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  width: 23rem;
+  text-decoration: none;
+}
+
+button {
+  padding: 2.2rem 3rem;
+  background-color: #151515;
+  border-style: none;
+  font-family: "Big Shoulders Display", sans-serif;
+  font-size: 1.8rem;
+  font-weight: 800;
+  color: #ffffff;
+  line-height: 1.3;
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
+  transition: all 0.3s;
+}
+
+.img-box {
+  /* margin: 0 auto; */
+  padding: 2.08rem 1.7838rem;
+  background-color: #d5966c;
+  transition: all 0.3s;
+}
+
+.btn:hover button {
+  cursor: pointer;
+  background-color: #d5966c;
+}
+.btn:hover .img-box {
+  cursor: pointer;
+  background-color: #151515;
+}
+
+.middle-field {
+  width: 80%;
+  display: grid;
+  /* grid-template-columns: 1fr 1fr; */
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: 0.5fr 0.5fr 0.5fr;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100rem;
+  margin-left: auto;
+  margin-right: auto;
+  gap: 2rem;
+}
+
+.middle-img-box {
+  grid-column: span 3;
+}
+
+.middle-img-box img {
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
+}
+
+.middle-text-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: 4rem;
+  grid-column: span 2;
+
+  padding-right: 13rem;
+}
+
+.middle-h1 {
+  font-family: "Big Shoulders Display", sans-serif;
+  font-size: 6rem;
+  font-weight: 900;
+  line-height: 6rem;
+  text-transform: uppercase;
+  color: #151515;
+}
+
+.middle-p {
+  font-family: "Outfit", sans-serif;
+  font-weight: 300;
+  font-size: 2.2rem;
+  line-height: 3.2rem;
+  color: #444444;
+}
+
+.middle-img-box-2 img {
+  /* max-width: 50rem;
+  display: block; */
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
+}
+
+.middle-img-box-2 {
+  grid-row-start: 2;
+  grid-row: span 2;
+  align-self: self-start;
+  grid-column: span 3;
+}
+
+.middle-img-box-3 img {
+  /* width: 40rem;
+  min-width: auto;
+  min-height: auto; */
+  object-fit: contain;
+  width: 100%;
+  height: auto;
+}
+
+.middle-img-box-3 {
+  align-self: self-start;
+  grid-column: span 2;
+}
+
+.black-box-text {
+  width: 100%;
+  height: 116%;
+  background-color: black;
+  object-fit: contain;
+  grid-column: span 2;
+  margin-top: -7rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: 3rem;
+  align-items: center;
+  justify-content: center;
+  padding: 5rem;
+}
+
+.inspired-h1 {
+  font-family: "Big Shoulders Display", sans-serif;
+  font-size: 6rem;
+  font-weight: 900;
+  line-height: 6rem;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.inspired-p {
+  font-family: "Outfit", sans-serif;
+  font-weight: 300;
+  font-size: 2.2rem;
+  line-height: 3.2rem;
+  color: #ffffff;
+}
+
+.footer-page-1 {
+  width: 100%;
+  height: 100%;
+  margin-top: 20rem;
+  background-color: #111111;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 10rem 15rem;
+}
+
+.address-p {
+  font-family: "Outfit", sans-serif;
+  font-weight: 300;
+  font-size: 1.8rem;
+  line-height: 2.8rem;
+  color: #ffffff;
+  padding-right: 40rem;
+  padding-left: 20rem;
+}
+
+.social-media {
+  display: flex;
+  gap: 1rem;
+}
+
+.social-media img {
+  transition: all 0.3s;
+}
+
+.social-media img:hover,
+.social-media img:active {
+  cursor: pointer;
+  filter: invert(60%) sepia(4%) saturate(5967%) hue-rotate(322deg)
+    brightness(89%) contrast(87%);
+}
+
+/* ******************** */
+/* MEDIA QUERIES DESKTOP */
+/* ******************** */
+
+@media (max-width: 1440px) {
+  .text-box {
+    right: 13rem;
+  }
+
+  .heading-h1 {
+    left: 13.5rem;
+  }
+
+  .black-box-text {
+    height: 117%;
+  }
+}
+
+/* ******************* */
+/* TABLET 768px */
+/* ****************** */
+
+@media (max-width: 768px) {
+  html {
+    font-size: 50%;
+  }
+
+  .left-black {
+    display: none;
+  }
+  .right-img img {
+    width: 56rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .query-flex {
+    display: flex;
+    flex-direction: column;
+    row-gap: 6rem;
+    margin-left: 50rem;
+    margin-top: 20rem;
+  }
+
+  .heading-h1,
+  .text-box {
+    position: static;
+  }
+
+  .heading-h1 {
+    font-size: 8rem;
+    line-height: 8rem;
+  }
+
+  .text-box {
+    z-index: 999;
+    padding: 0;
+  }
+
+  .heading-p {
+    font-size: 2rem;
+    line-height: 3rem;
+  }
+
+  .btn {
+    width: 24rem;
+  }
+
+  .img-box {
+    padding: 1.8rem 1.7838rem;
+  }
+
+  .middle-field {
+    margin-top: 30rem;
+  }
+
+  .middle-h1 {
+    font-size: 5rem;
+    line-height: 5rem;
+  }
+  .middle-p {
+    font-size: 1.8rem;
+    line-height: 2.5rem;
+  }
+
+  .middle-text-box {
+    padding-right: 7rem;
+  }
+
+  .black-box-text {
+    height: 100%;
+    margin-top: -0.9rem;
+  }
+
+  .footer-page-1 {
+    margin-top: 15rem;
+    padding: 7rem 10rem;
+  }
+
+  .address-p {
+    font-size: 1.8rem;
+    line-height: 3rem;
+    padding-right: 12rem;
+    padding-left: 7rem;
+  }
+}
+
+/* ******************* */
+/* MOBILE 375px*/
+/* ****************** */
+@media (max-width: 375px) {
+  .right-img img {
+    position: static;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+
+  .query-flex {
+    margin: 0;
+    padding: 7rem 3rem;
+    row-gap: 4rem;
+  }
+
+  .heading-h1 {
+    line-height: 7rem;
+  }
+
+  .text-box {
+    row-gap: 4rem;
+  }
+
+  .middle-field {
+    margin-top: 6rem;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    row-gap: 2rem;
+    margin-right: 3rem;
+    margin-left: 3rem;
+  }
+
+  .middle-text-box {
+    row-gap: 2rem;
+    padding-right: 0;
+    align-items: stretch;
+  }
+
+  .middle-img-box {
+    grid-row-start: 1;
+  }
+
+  .middle-h1 {
+    font-size: 5.5rem;
+    font-weight: 900;
+    line-height: 6rem;
+    text-transform: uppercase;
+    color: #151515;
+  }
+
+  .middle-p {
+    font-size: 2rem;
+    line-height: 2.8rem;
+  }
+
+  .middle-img-box-3 img {
+    /* object-fit: cover; */
+    width: 105%;
+    height: auto;
+  }
+
+  .black-box-text {
+    width: 105%;
+    padding: 5rem 3rem;
+  }
+
+  .inspired-h1 {
+    font-size: 5rem;
+    line-height: 5rem;
+  }
+
+  .inspired-p {
+    font-family: "Outfit", sans-serif;
+    font-weight: 300;
+    font-size: 1.8rem;
+    line-height: 2.8rem;
+    color: #ffffff;
+  }
+
+  .footer-page-1 {
+    flex-direction: column;
+    row-gap: 3rem;
+    margin-top: 10rem;
+    padding: 7rem 4rem;
+  }
+
+  .address-p {
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+    padding-right: 8rem;
+    padding-left: 0;
+  }
+}
